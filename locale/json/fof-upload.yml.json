@@ -45,7 +45,7 @@
           "title": "Настройки хранилища Imgur"
         },
         "local": {
-          "cdn_url": "Content Delivery URL (prefixes files)",
+          "cdn_url": "URL сети доставки содержимого (CDN / префиксы файлов)",
           "title": "Настройки локального хранилища"
         },
         "qiniu": {
