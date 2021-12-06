@@ -7,7 +7,7 @@
         "editAny": "Редактировать любой социальный профиль"
       },
       "settings": {
-        "allow_external_favicons_label": "Разрешить значки внешних веб-сайтов"
+        "allow_external_favicons_label": "Разрешить значки внешних сайтов"
       }
     },
     "forum": {
@@ -20,7 +20,7 @@
         "submit": "Сохранить",
         "delete": "Удалить",
         "deletetitle": "Удаление кнопки",
-        "save_disabled_fetching_favicons": "Выбираются один или несколько значков. Пожалуйста, подождите.",
+        "save_disabled_fetching_favicons": "Идёт процесс извлечения иконок. Пожалуйста, подождите.",
         "favicon": "Favicon",
         "grey_favicon": "Серый Favicon"
       }
