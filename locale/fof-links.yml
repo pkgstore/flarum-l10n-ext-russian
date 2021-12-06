@@ -9,7 +9,7 @@ fof-links:
 
     # These strings are used in the Edit Link modal dialog.
     edit_link:
-      delete_link_button: "Удалить"
+      delete_link_button: "Удалить ссылку"
       delete_link_confirmation: "Вы уверены, что хотите удалить ссылку?"
       everyone-label: "Все"
       guests-label: "Гости"
@@ -34,7 +34,7 @@ fof-links:
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    create_link: "Создать"
+    create_link: "Создать ссылку"
     links: "Ссылки"
     title: "Название"
     url: "URL"
