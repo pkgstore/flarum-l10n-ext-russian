@@ -24,6 +24,6 @@ fof-ignore-users:
 
     badge:
       user_label: "Игнорируемый"
-      discussion_label: "Опубликована игнорируемым пользователем"
+      discussion_label: "Опубликовано игнорируемым пользователем"
 
 
