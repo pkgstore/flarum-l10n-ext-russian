@@ -24,7 +24,7 @@ fof-subscribed:
             postUnapproved: "[Подписка | Неподтверждённое сообщение] {username} опубликовал(а) в {title}"
         body:
             newDiscussion: |
-                Привет, {recipient_display_name}!
+                Здравствуйте, {recipient_display_name}!
 
                 {actor_display_name} опубликовал(а) новую дискуссию: {discussion_title}
 
@@ -35,14 +35,14 @@ fof-subscribed:
 
                 {post_content}
             newUser: |
-                Привет, {recipient_display_name}!
+                Здравствуйте, {recipient_display_name}!
 
                 {actor_display_name} зарегистрировался на {forum_url}.
 
                 Чтобы посмотреть нового пользователя, пройдите по следующей ссылке:
                 {user_url}
             postUnapproved: |
-                Привет, {recipient_display_name}!
+                Здравствуйте, {recipient_display_name}!
 
                 {actor_display_name} опубликовал(а) сообщение, требующее подтверждения в {discussion_title}
 

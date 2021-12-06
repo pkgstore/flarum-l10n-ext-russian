@@ -1,10 +1,12 @@
 fof-polls:
   admin:
     permissions:
-      moderate: "Изменять / удалять опросы"
-      self_edit: "Разрешить редактировать свои опросы"
+      view_results_without_voting: "Смотреть результаты без голосования"
       start: "Создавать опросы"
+      self_edit: "Редактировать свои опросы"
       vote: "Голосовать в опросах"
+      change_vote: "Изменять голос"
+      moderate: "Изменять / удалять опросы"
 
   forum:
     days_remaining: "Опрос завершится: {time}."
@@ -38,7 +40,7 @@ fof-polls:
 
     tooltip:
       badge: "Опрос"
-      votes: "1 голос|{count} голосов"
+      votes: "{count, plural, one {# голос} other {# голосов}}"
 
     votes_modal:
       title: "Проголосовали в опросе"

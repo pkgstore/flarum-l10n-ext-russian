@@ -6,8 +6,8 @@ fof-follow-tags:
       notify_new_discussion_tag_label: "Перемещение дискуссии в тег, на который я подписан"
 
     index:
-      follow_tag_button: "Подписаться"
-      unfollow_tag_button: "Отписаться"
+      follow_tag_button: "Подписка"
+      unfollow_tag_button: "Отписка"
 
       following:
         following_none_label: => fof-follow-tags.ref.filtering_options.none
@@ -40,13 +40,13 @@ fof-follow-tags:
 
     user:
       settings:
-        heading: "Follow Tags" # TODO
+        heading: "Подписка на теги"
 
-        filter_label: "What to show by default in the Following page" # TODO
+        filter_label: "Показывать по умолчанию на странице подписок"
 
   admin:
     settings:
-      following_page_default_label: "Default Following Page Filtering" # TODO
+      following_page_default_label: "Фильтр страницы подписок по умолчанию"
 
       following_none_label: => fof-follow-tags.ref.filtering_options.none
       following_tags_label: => fof-follow-tags.ref.filtering_options.tags
@@ -59,7 +59,7 @@ fof-follow-tags:
         newDiscussionTag: "[Тег | Изменение тега] {title}"
     body:
         newDiscussionInTag: |
-            Привет, {recipient_display_name}!
+            Здравствуйте, {recipient_display_name}!
 
             {actor_display_name} создал(а) новую дискуссию: {discussion_title}
 
@@ -70,7 +70,7 @@ fof-follow-tags:
 
             {post_content}
         newPostInTag: |
-            Привет, {recipient_display_name}!
+            Здравствуйте, {recipient_display_name}!
 
             {actor_display_name} ответил(а) в дискуссии: {discussion_title}
 
@@ -85,7 +85,7 @@ fof-follow-tags:
 
             Вы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.
         newDiscussionTag: |
-            Привет, {recipient_display_name}!
+            Здравствуйте, {recipient_display_name}!
 
             {actor_display_name} изменил тег дискуссии, автором которой является {author_display_name} на тег, на который Вы подписаны {discussion_title}
 

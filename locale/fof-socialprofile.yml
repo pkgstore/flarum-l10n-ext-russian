@@ -1,4 +1,13 @@
 fof-socialprofile:
+  admin:
+    permissions:
+      view: "Смотреть социальный профиль"
+      editOwn: "Редактировать свой социальный профиль"
+      editAny: "Редактировать любой социальный профиль"
+
+    settings:
+      allow_external_favicons_label: "Разрешить значки внешних веб-сайтов"
+
   forum:
     edit:
       edit: "Править"
@@ -9,3 +18,6 @@ fof-socialprofile:
       submit: "Сохранить"
       delete: "Удалить"
       deletetitle: "Удаление кнопки"
+      save_disabled_fetching_favicons: "Выбираются один или несколько значков. Пожалуйста, подождите."
+      favicon: "Favicon"
+      grey_favicon: "Серый Favicon"

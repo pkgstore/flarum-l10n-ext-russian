@@ -16,7 +16,7 @@ fof-merge-discussions:
       merge: => fof-merge-discussions.ref.merge
 
     post:
-      merged: "Перемещено <b>{count}</b> сообщение из {titles}.|Перемещено <b>{count}</b> сообщений из {titles}."
+      merged: "{count, plural, one {Перемещено <b>#</b> сообщение из {titles}.} other {Перемещено <b>#</b> сообщений из {titles}.}}"
 
   admin:
     permissions:
@@ -27,6 +27,7 @@ fof-merge-discussions:
       merging_failed: "Не удалось объединить дискуссии."
       updating_failed: "Не удалось обновить информацию о дискуссии."
       deleting_failed: "Не удалось удалить пустые дискуссии."
+      fixing_posts_number_failed: "Не удалось исправить номера сообщений."
 
   ref:
     merge: "Объединить"

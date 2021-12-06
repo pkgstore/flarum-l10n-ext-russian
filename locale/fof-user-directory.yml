@@ -1,11 +1,14 @@
 fof-user-directory:
     forum:
+        header:
+            back_to_user_directory_tooltip: "Назад к списку участников"
+
         search:
             users_heading: 'Поиск всех пользователей: "{query}"'
             field:
                 placeholder: "Найти всех пользователей..."
         page:
-            nav: "Каталог участников"
+            nav: "Список участников"
             refresh_tooltip: => core.forum.index.refresh_tooltip
             load_more_button: => core.ref.load_more
             empty_text: "Пользователи, соответствующие Вашему запросу, не найдены."
@@ -13,10 +16,12 @@ fof-user-directory:
 
     admin:
         permissions:
-            view_user_directory: "Смотреть каталог участников"
+            view_user_directory: "Смотреть список участников"
         settings:
             link: "Ссылка на странице форума"
             default-sort: "Сортировка по умолчанию"
+            use-small-cards: "Маленькие карточки участников"
+            disable-global-search-source: "Не добавлять каталог участников в поле глобального поиска"
 
     lib:
         sort:
@@ -26,8 +31,6 @@ fof-user-directory:
             username_za: "Имя пользователя (z-a)"
             newest: "По убыванию"
             oldest: "По возрастанию"
-            seen_recent: "Недавно в сети"
-            seen_oldest: "Давно вне сети"
             most_posts: "Много сообщений"
             least_posts: "Мало сообщений"
             most_discussions: "Много дискуссий"
