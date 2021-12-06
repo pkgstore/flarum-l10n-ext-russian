@@ -34,7 +34,7 @@ fof-links:
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    create_link: "Добавить"
+    create_link: "Создать"
     links: "Ссылки"
     title: "Название"
     url: "URL"
