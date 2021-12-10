@@ -7,7 +7,7 @@ fof-ignore-users:
   # Translations in this namespace are used by the admin interface.
   admin:
     permissions:
-      can_not_be_ignored_label: "Не может быть игнорируемым"
+      can_not_be_ignored_label: "Нельзя игнорировать"
 
 
   # Translations in this namespace are used by the forum interface.
