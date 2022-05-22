@@ -7,9 +7,9 @@
   "keywords": ["z17", "extension", "flarum", "russian", "language", "locale", "localization", "translation"],
   "authors": [
     {
-      "name": "z17",
-      "email": "z17.hello@gmail.com",
-      "homepage": "https://z17.dev/",
+      "name": "Kitsune Solar",
+      "email": "kitsune.solar@gmail.com",
+      "homepage": "https://kitsune.solar/",
       "role": "Translator"
     }
   ],
@@ -19,24 +19,6 @@
     "docs": "https://github.com/pkgstore/flarum-l10n-ext-russian/wiki",
     "forum": "https://github.com/pkgstore/flarum-l10n-ext-russian/discussions"
   },
-  "funding": [
-    {
-      "type": "ko_fi",
-      "url": "https://ko-fi.com/pkgstore"
-    },
-    {
-      "type": "liberapay",
-      "url": "https://liberapay.com/pkgstore"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/pkgstore"
-    },
-    {
-      "type": "other",
-      "url": "https://kitsune.solar/ru/donate/"
-    }
-  ],
   "require": {
     "flarum/core": "^1.1"
   },
